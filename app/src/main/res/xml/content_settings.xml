@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobile.app.krypton.SettingsActivity">
+
+
+    <PreferenceCategory android:title="Application">
+
+        <Preference
+            android:title="Program Version ID"
+            android:summary="0.0.0"
+            android:key="programid" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Network">
+
+
+        <Preference
+            android:title="View Network Stats"
+            android:summary="View advanced network statistics."
+            android:key="network_key" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="full_node"
+            android:summary="This will download the whole Blockchain."
+            android:title="Full node" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mining_node"
+            android:summary="Mining to help the network."
+            android:title="Mining" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="server_node"
+            android:summary="Allow others to connect to your phone."
+            android:title="Server" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="user_peer_only"
+            android:summary="Krypton will only connect to the peer below."
+            android:title="Use one selected peer" />
+
+        <EditTextPreference
+            android:key="peerid"
+            android:summary="example.onion"
+            android:title="Peer Address" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="add_node_onion"
+            android:summary="Add your .onion server address into the blockchain so others can find it."
+            android:title="Insert .onion into Blockchain" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="My Account">
+
+        <Preference
+            android:title="Get new keys"
+            android:summary="This will delete your old keys and tokens!"
+            android:key="newkey" />
+
+        <Preference
+            android:title="Copy server address"
+            android:summary="Copy .onion address to clipboard."
+            android:key="getonion" />
+
+        <Preference
+            android:title="Copy public key"
+            android:summary="Copy public key to clipboard."
+            android:key="getpubkey" />
+
+        <Preference
+            android:title="Copy private key"
+            android:summary="Copy private key to clipboard."
+            android:key="getkey" />
+
+        <EditTextPreference
+            android:key="importkey"
+            android:summary="2048 bit RSA key example: MII...=="
+            android:title="Import private key" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Blockchain">
+
+        <Preference
+            android:title="Reset blockchain"
+            android:summary="Delete all blockchain information."
+            android:key="resetblockchain" />
+
+        <Preference
+            android:title="Delete last block"
+            android:summary="Delete most recent mining block."
+            android:key="deleteblock" />
+
+        <Preference
+            android:title="Delete unconfirmed"
+            android:summary="Delete all unconfirmed blocks."
+            android:key="deleteunconfirmed" />
+
+        <Preference
+            android:title="Print blocks"
+            android:summary="Print most recent mining blocks."
+            android:key="printblocks" />
+
+        <Preference
+            android:title="Rebuild node list"
+            android:summary="Search Blockchain for nodes."
+            android:key="getnodes" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Contact Details (Public)!">
+
+        <EditTextPreference
+            android:key="contactname1"
+            android:summary="Contact first name."
+            android:title="First name" />
+
+        <EditTextPreference
+            android:key="contactname2"
+            android:summary="Contact last name."
+            android:title="Last name" />
+
+        <EditTextPreference
+            android:key="contactaddress"
+            android:summary="Contact address."
+            android:title="Address" />
+
+        <EditTextPreference
+            android:key="contactaddress2"
+            android:summary="Contact address 2."
+            android:title="Address2" />
+
+        <EditTextPreference
+            android:key="contactcity"
+            android:summary="Contact city."
+            android:title="City" />
+
+        <EditTextPreference
+            android:key="contactprovince"
+            android:summary="Contact province."
+            android:title="Province" />
+
+        <EditTextPreference
+            android:key="contactcountry"
+            android:summary="Contact country."
+            android:title="Country" />
+
+        <EditTextPreference
+            android:key="contactbitcoin"
+            android:summary="Contact bitcoin address."
+            android:title="Bitcoin address" />
+
+        <EditTextPreference
+            android:key="contactemail"
+            android:summary="Contact email."
+            android:title="Email" />
+
+        <EditTextPreference
+            android:key="contactphone"
+            android:summary="Contact phone number."
+            android:title="Phone" />
+
+        <EditTextPreference
+            android:key="contactwebsite"
+            android:summary="Contact website URL."
+            android:title="Website" />
+
+        <EditTextPreference
+            android:key="contactnotes"
+            android:summary="Seller notes."
+            android:title="Notes" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

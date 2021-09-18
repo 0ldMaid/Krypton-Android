@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobile.app.krypton">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.mobile.app.krypton.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme2.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mobile.app.krypton.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme2.NoActionBar" />
+        <activity
+            android:name="com.mobile.app.krypton.ViewActivity"
+            android:label="@string/title_activity_view"
+            android:theme="@style/AppTheme2.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.mobile.app.krypton.TransferActivity"
+            android:label="TransferActivity"
+            android:theme="@style/AppTheme2.NoActionBar" />
+        <activity
+            android:name="com.mobile.app.krypton.SettingsActivity"
+            android:label="Settings"
+            android:theme="@style/AppTheme2.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.mobile.app.krypton.NetworkActivity"
+            android:label="Network"
+            android:theme="@style/AppTheme2.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.mobile.app.krypton.BlockchainActivity"
+            android:label="Blockchain"
+            android:theme="@style/AppTheme2.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="android:screenOrientation"
+            android:stateNotNeeded="true"/>
+
+    </application>
+
+</manifest>

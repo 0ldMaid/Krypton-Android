@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d6d6d6</color>
+    <color name="colorPrimaryDark">#154766</color>
+    <color name="colorAccent">#98CCFD</color>
+    <color name="colorAccent2">#31F7EE</color>
+    <color name="logoblue">#154766</color>
+    <color name="logoblue2">#0F1C25</color>
+    <color name="logogold">#FF8B25</color>
+    <color name="logogold2">#FFED0D</color>
+    <color name="jblue">#154766</color>
+    <color name="jblue2">#2274A7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="jgray">#ededed</color>
+    <color name="ltcgray">#F0F0F0</color>
+    <color name="dkgrayx">#dfdfdf</color>
+    <color name="dkgrayxx">#979797</color>
+    <color name="dkgray">#F0F0F0</color>
+    <color name="red">#FE0606</color>
+</resources>

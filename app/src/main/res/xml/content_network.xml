@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobile.app.krypton.NetworkActivity">
+
+
+    <PreferenceCategory android:title="Network Activity">
+
+
+        <Preference
+            android:title="Full node"
+            android:summary=""
+            android:key="network0" />
+
+        <Preference
+            android:title="Mining"
+            android:summary=""
+            android:key="network1" />
+
+        <Preference
+            android:title="Server"
+            android:summary=""
+            android:key="network2" />
+
+
+        <Preference
+            android:title="Blocks"
+            android:summary=""
+            android:key="network3" />
+
+        <Preference
+            android:title="Difficulty"
+            android:summary=""
+            android:key="network4" />
+
+        <Preference
+            android:title="Block Speed"
+            android:summary=""
+            android:key="network5" />
+
+        <Preference
+            android:title="Last Block Time"
+            android:summary=""
+            android:key="network6" />
+
+        <Preference
+            android:title="Last Block ID"
+            android:summary=""
+            android:key="network7" />
+
+        <Preference
+            android:title="Unconfirmed"
+            android:summary=""
+            android:key="network8" />
+
+        <Preference
+            android:title="Peer 0"
+            android:summary=""
+            android:key="network9" />
+
+        <Preference
+            android:title="Peer 1"
+            android:summary=""
+            android:key="network10" />
+
+        <Preference
+            android:title="Peer 2"
+            android:summary=""
+            android:key="network11" />
+
+        <Preference
+            android:title="Peer 3"
+            android:summary=""
+            android:key="network12" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
