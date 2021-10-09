@@ -20,7 +20,7 @@ Soon many websites will be forced to comply with government policies like in Chi
 https://www.npr.org/sections/thetwo-way/2018/03/23/596460672/craigslist-shuts-down-personals-section-after-congress-passes-bill-on-traffickin
 
 # Program UI:
-# Home Screen
+## Home Screen
 On the home screen you can see a display of the most recently updated listings that have a new title. If you go to the search feature at the bottom you can search for a specific item. If you are using a full node this will search your own database. If you are a "Lite Client" it will search the peer you are connected to. If you are not conned to any peers it will say "Tor isn't ready." The QR code on the right is your public key.
 
 Tokens is the number of coins you have.
