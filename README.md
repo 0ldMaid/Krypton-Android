@@ -27,13 +27,13 @@ Tokens is the number of coins you have.
 Unconfirmed is the number of blocks waiting to be confirmed and (0) is the updates you have made but have not been sent to the network yet.
 Last Block Time is the time in seconds since the last block.
 
-# Send Screen:
+## Send Screen:
 If you click on the SEND (>) button you will see the Send screen. The green number on the top 100100 is the token you are going to transfer to another address. You can enter this manually if you want to transfer a specific ID or you can click GET ID and the program will choose an ID for you that you have. Each token has an ID unlike bitcoin so you have to choose which coin or (Token) you want to send. If you send more then one token the program will go though your list of tokens starting from the lowest number. Get QR code will open the camera so you can scan another user's public key.
 
-# Listings Screen:
+## Listings Screen:
 If you click on a listing you will see the LISTING Page which looks like the image below. Here you can see the details about the item as well as Contact details at the bottom. Each user will have to come up with the best contact system for them. Using email or some kind of messaging system.
 
-# Edit Screen:
+## Edit Screen:
 If you click on the EDIT button (Looks like a pencil) from the home screen you will see the image below. Here you can edit any tokens that you have. Adding a picture link from an online image hosting service will allow your listing to have a picture. The Tor system does not have a good URL redirect DNS and so it's good to test your image link first to make sure it will be available for users to see. (Many URLs are not) This service seems to work well: postimg.cc
 
 If you want one of those little icons to appear next to your listing on the home screen you can put one of these commands in the "search 1" field of your listing. If you don't it will just display the standard "coins" icon.
@@ -63,7 +63,7 @@ DISPLAY_SUPERMAN
 DISPLAY_TICKET
 DISPLAY_XXX
 
-# Settings:
+## Settings:
 If you go to the SETTINGS (Wrench) button from the home screen you will see the settings screen. (The Play Store version of the app will not have access to these features because of google play polices. But if you need them you can download the full app version from my link at the bottom of this page).
 
 Full Node Switch from the beginning this system was built for mobile so for many users who don't want to download the blockchain they can just use the "SPV" version. If Full node is on then your phone will have the whole blockchain if it's off you will only connect to other phones for the info.
@@ -105,12 +105,8 @@ To run on mobile phones two main changes had to be made to the bitcoin system. O
 
 If users want to connect to the system but they don't have the app they can just connect to the phone by going to the phone's .onion address like this: http://md4kofpseowoo2hp.onion this allows for anyone anywhere in the world to view the status of the system from a regular PC without using the app. This could become much more valuable later on in building decentralized community websites.
 
-
-
 # Blockchain
 The blockchain has been converted into more of a "worm chain" it moves along though time but it doesn't get any longer. Each block from the back is moved to the front, moving it along kind of like how they used to move heavy blocks ages ago with logs. The block moves along the logs and when it gets to far the log from the back is moved to the front. That's pretty much how this works. The blockchain will complete it's run about every month. At that time if any node hasn't updated they would be left out and they wouldn't be able to verity the blocks on their own any longer. That's why Bitcoin doesn't do this, it needs more security. But in this case the database is just information and thus not as important as monetary transactions. I think this is a worthwhile trade off for the benefits it brings to a system like this. But if in the future storage isn't an issue with phones it would be possible to save all the transactions like Bitcoin and have the same security. By just a few changes to the code.
-
-
 
 # FAQ:
 Any relation to Craigslist the site?: None.
@@ -124,8 +120,6 @@ Are there tokens for sale: yes I'm going to give away the first 1,000 for free a
 Are there any other ways to get tokens: I will give away free tokens to people who want to be servers and testers.
 Is this on iphone?: no I don't know anything about iphone programming I'm not sure if the tor libraries are available for iphone but I would guess they are.
 Does it work on ARC Welder?: no I think because the app needs Linux for Tor it doesn't work.
-
-
 
 # Timeline:
 Full version release: (July 12, 2018) You can download the APK here: http://www.mediafire.com/file/enx6e68sxgadsn6/Krypton_1.2.5.apk/file
